@@ -144,12 +144,13 @@ body{
         margin-bottom: 10px;
         display: flex;
     }
-    .form-row
+     .form-row 
     .form-group{
-     margin-right: 15px;
+     margin-right: 20px;
       width: 50%;
     
      }
+    
 
     .form-row
     .form-group:last-child{
@@ -161,11 +162,11 @@ body{
         display: block;
     }
     }
-    .form-row
+    .form-row,
     .form-group{
     width: 100%;
     margin-right: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     }
 
     
@@ -184,7 +185,7 @@ body{
     background:transparent;
     border-bottom: 1px solid #000000;
     color:#4e4d4d;
-    padding: 10px 0 15px;
+    padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
 }
