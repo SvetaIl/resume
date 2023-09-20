@@ -6,89 +6,141 @@
     <meta name="description" content="Это резюме ">
     <meta name="keywords" content="html,css,cv,resume">
     <title>Резюме Света И</title>
+    <link rel="stylesheet"href="styles_res.css">
 </head>
+
+
+
 <body>
 
-    <img src="cat_ava2.png" alt="Света И фото">
+    <div class="container">
+            
+        <div class="box">
+
+                <div class="info-text">
+
+                            <img src="cat_ava2.png" alt="Света И фото" class="avatar">
+
+                        <div class="info">
+                            <h1>Света И</h1>
+                    
+                           <p>Я прохожу бесплатный <strong>курс по HTML и CSS</strong>,чтоб освоить новую профессию и <strong>найти работу в абсолютной новой для меня сфере.</strong></p> 
+                            
+                    <p>Это очень интересно <em> и увлекательно. Надеюсь, в скором времени, смогу сделать настоящее резюме со своими проектами. </em></p>
+                </div>
+                            
+                    
+                        
+            
+
+        </div>
+            
+        </div>
 
 
-    <h1>Света И</h1>
-<p>Я прохожу бесплатный <strong>курс по HTML</strong>,чтоб освоить новую профессию и <strong>найти работу</strong> </p>
-<br>
 
-<p>Люблю отдыхать на природе и <em>путешествовать на мотоцикле</em></p>
-<br>
+
+<div class="box"> 
+<div class="card bg-green">
 
 <h2>Мои Хобби</h2>
-<ol>
-    <li>Лыжи</li>
-    <li>Путешествия</li>
-    <li>Мотоцикл</li>
-    <li>Еда</li>
-</ol>
 
+<ol class="list">
+    <li>Кататься на мотоцикле</li>
+    <li>Рисование</li>
+    <li>Кулинария</li>
+    <li>Moto GP</li>
+</ol>
+</div>
+<br>
+
+<div class="card bg-yellow">
 
 <h2>Опыт Работы</h2>
 
-<table>
-    <thead>
-        <tr>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-    </thead>
+<table class="table">
+  <!-- <thead>
+      <tr>
+          <th>Название</th>
+          <th>Должность</th>
+          <th>Год</th>
+      </tr>
+  </thead> -->
+</div>
 
-    <tbody>
-    <tr>
-        <td>Яндекс </td>
-        <td>Раб Яндекса </td>
-        <td>2023 </td>
-    </tr>
-    <tr>
-        <td>Офис </td>
-        <td>Менеджер </td>
-        <td>2022 </td>
-        <tr>
-            <td>Озон </td>
-            <td>Логист </td>
-            <td>2021 </td>
-        </tr>
-    </tr>
+
+  <tbody>
+  <tr>
+      <td>Логистическая компания </td>
+      <td>Администратор </td>
+      <td>2023 </td>
+  </tr>
+  <tr>
+      <td>Офис </td>
+      <td>Менеджер </td>
+      <td>2022 </td>
+      <tr>
+          <td>Озон </td>
+          <td>Логист </td>
+          <td>2021 </td>
+      </tr>
+  </tr>
 </tbody>
 </table>
+</div>
+
+</div>
 
 
-<p>
-    <strong>Список социальных сетей:</strong>
-</p>
+<div class="box"> 
+ <h4><strong>Список социальных сетей:</strong></h4>
 
-<a href="http://instagram.com" target="_blank"> Instagram</a>
-|
- <a href="http://telegram.org" target="_blank">telegram </a>
- |
- <a href="http://youtube.com" target="_blank">youtube</a>
+<nav class="navbar">
+    <a href="http://instagram.com" target="_blank"> Instagram</a>
+    |
+    <a href="http://telegram.org" target="_blank">telegram </a>
+    |
+    <a href="http://youtube.com" target="_blank">youtube</a>
+</nav>
 
- <h2>Связаться со мной</h2>
- <form action=""></form>
- <div>
-<label for="name">Ваше Имя:</label>
-<input type="name" id="name" placeholder="Введите имя">
+</div> 
+  
+ 
 
- </div>
+ <div class="box">
 
- <div>
-    <label for="email">Email:</label>
-    <input type="email" id="email" placeholder="Введите Email">
-    
-     </div>
-     <div>
+  <form action="f" class="form">
+    <h2>Связаться со мной</h2>
 
-        <label for="message"> Ваше сообщение:</label>
-        <br>
-        <textarea id="message"   cols="15" rows="10" placeholder="Введите сообщение..."></textarea>
+
+<div class="form-row">
+    <div class="form-group">
+        <label for="name">Ваше Имя:</label>
+        <input type="name" id="name" placeholder="Введите имя">
+    </div>
         
-        </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Введите Email">
+        
+    </div>
+</div>
 
+<div class="form-group">
+    <label for="message"> Ваше сообщение:</label>
+    <br>
+    <textarea id="message"   cols="35" rows="10" placeholder="Введите сообщение..."></textarea>
+   
+</div>
+     
+    <input class="btn" type="submit" value="Отправить"></input> 
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+
+     
 </body>
 </html>
